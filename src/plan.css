@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+==========
+Nav bar
+==========
+*/
+.container {
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: 0;
+  }
+  
+  .nameheader{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    opacity: .65;
+    display:inline-block;
+  }
+  
+  .navtitle{
+    float: left;
+    clear: both;
+  
+  }
+  
+  header.top {
+    background: white;
+  }
+  header.top::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .navitems {
+    float: right;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+  }
+  
+  nav .nav-link {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  /*
+===============
+Body Content
+===============
+  */
+
+  img{
+      width: 250px;
+  }
+
+  .main{
+    padding-top: 25px;
+    padding-left: 25px;
+  }
+
+  .arrive {
+      display: inline-block;
+      padding-bottom: 15px;
+  }
+  .arrive img {
+      float: left;
+  }
+
+  .arrive h1{
+      float: left;
+  }
+  
+  .stay {
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+  .stay img {
+    float: left;
+}
+
+  .stay h1{
+    float: left;
+}
+
+.eat {
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.eat img {
+    float: left;
+}
+
+.eat h1{
+    float: left;
+}
+
+.do {
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.do img {
+    float: left;
+}
+
+.do h1{
+    float: left;
+}
+
+.remember {
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.remember img {
+    float: left;
+}
+
+.remember h1{
+    float: left;
+}
